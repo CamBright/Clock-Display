@@ -60,6 +60,12 @@ public class ClockDisplay
      */
     public void setTime(int hour, int minute)
     {
+        if(hour >= 13) {
+            hour = hour - 12;
+        }
+        else{
+            hour = hour; 
+        }           
         hours.setValue(hour);
         minutes.setValue(minute);
         updateDisplay();

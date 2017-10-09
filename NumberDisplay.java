@@ -47,7 +47,7 @@ public class NumberDisplay
             return "" + value;
         }
     }
-
+    
     /**
      * Set the value of the display to the new specified value. If the new
      * value is less than zero or over the limit, do nothing.
@@ -55,7 +55,7 @@ public class NumberDisplay
     public void setValue(int replacementValue)
     {
         if((replacementValue >= 0) && (replacementValue < limit)) {
-            value = replacementValue;
+            value = replacementValue;    
         }
     }
 
