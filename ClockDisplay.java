@@ -10,7 +10,8 @@
  * fashion: the hour increments when the minutes roll over to zero.
  * 
  * @author Michael Kölling and David J. Barnes
- * @version 2011.07.31
+ * @author Cameron Brightwell
+ * @version 2017
  */
 public class ClockDisplay
 {
